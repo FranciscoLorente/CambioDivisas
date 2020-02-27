@@ -66,9 +66,9 @@ namespace CambioDivisas.Services.Repositorios.TransaccionesRepository
                         select new
                         {
                             Sku = transaccionSku.Key,
-                            SumaTotal = transaccionSku.Sum(x=> x.Amount),
-                            //SumaTotal = transaccionSku.Sum(x=>
-                            //    _conversorMoneda.ConvertirValor(x.Amount, x.Currency, "EUR")),
+                            //SumaTotal = transaccionSku.Sum(x=> x.Amount),
+                            SumaTotal = transaccionSku.Sum(x =>
+                                _conversorMoneda.ConvertirValor(x.Amount, x.Currency, "EUR")),
                             Moneda = "EUR"
                         };
 
