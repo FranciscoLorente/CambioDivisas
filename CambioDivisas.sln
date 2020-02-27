@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CambioDivisas", "CambioDivisas\CambioDivisas.csproj", "{BBB44DFD-FB40-4E8D-A01E-1F96828E4BAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{CE721B06-FB8F-42E5-8AEA-7D1D275C6DA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBB44DFD-FB40-4E8D-A01E-1F96828E4BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB44DFD-FB40-4E8D-A01E-1F96828E4BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB44DFD-FB40-4E8D-A01E-1F96828E4BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB44DFD-FB40-4E8D-A01E-1F96828E4BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE721B06-FB8F-42E5-8AEA-7D1D275C6DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE721B06-FB8F-42E5-8AEA-7D1D275C6DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE721B06-FB8F-42E5-8AEA-7D1D275C6DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE721B06-FB8F-42E5-8AEA-7D1D275C6DA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99A93234-8326-48FD-AA79-E1C240B38309}
+	EndGlobalSection
+EndGlobal
