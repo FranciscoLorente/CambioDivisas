@@ -8,7 +8,7 @@ namespace UnitTest.UnitTest
     [TestClass]
     public class GenericRepositoryTest
     {
-        Rates rate = new Rates { From = "EUR", To = "USD", Rate = 1.58m };
+        readonly Rates rate = new Rates { From = "EUR", To = "USD", Rate = 1.58m };
         IRatesRepository repositorio = new RatesRepository();
 
         //[TestInitialize]

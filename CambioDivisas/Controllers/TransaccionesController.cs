@@ -8,7 +8,7 @@ namespace CambioDivisas.Controllers
 {
     public class TransaccionesController : BaseController
     {
-        private ITransaccionesRepository _repositorio;
+        private readonly ITransaccionesRepository _repositorio;
 
         public TransaccionesController()
         {
